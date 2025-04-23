@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Fiap.Estrutura.Controller\Fiap.Estrutura.Controller.csproj" />
-    <ProjectReference Include="..\Fiap.Estrutura.Model\Fiap.Estrutura.Model.csproj" />
+    <ProjectReference Include="..\Fiap.Estrutura.Repository\Fiap.Estrutura.Repository.csproj" />
   </ItemGroup>
 
 </Project>

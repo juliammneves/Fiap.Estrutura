@@ -1,10 +1,12 @@
-﻿using Fiap.Estrutura.Model;
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Fiap.Estrutura.Controller;
 
-Aluno classeAluno = new Aluno();
-classeAluno.cpf = "1234";
-
-Console.WriteLine("Digite seu usuario: ");
-Console.ReadLine();
+UserController usuario = new UserController();
+if (usuario.validateUser("admin", "senha123"))
+{
+   Console.WriteLine("Usuário válido");
+}
+else
+{
+    Console.WriteLine("Usuário ou senha inválidos");
+}
 

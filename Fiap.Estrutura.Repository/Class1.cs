@@ -1,4 +1,4 @@
-﻿namespace Fiap.Estrutura.Model
+﻿namespace Fiap.Estrutura.Repository
 {
     public class Class1
     {
